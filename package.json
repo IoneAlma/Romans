@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-kata-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest ./src",
+    "test:watch": "jest ./src --watch",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "debug": "^2.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "jest": "^23.4.1",
+    "nodemon": "^1.18.2",
+    "superagent": "^3.8.3",
+    "supertest": "^3.3.0"
+  },
+  "author": "bytekeks",
+  "license": "MIT"
+}
